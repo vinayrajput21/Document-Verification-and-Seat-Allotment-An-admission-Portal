@@ -1,0 +1,113 @@
+/* Styles for the Dashboard */
+.dashboard-container {
+    padding: 30px;
+    max-width: 930px;
+    margin: -20px auto;
+    margin-left: 22px;
+    margin-top: 33px;
+    margin-bottom: 50px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h2 {
+    color: #f44336; /* Red color for the heading */
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.dashboard-container h6 {
+    color: black; /* Red color for the heading */
+    /* font-size: 25px; */
+    margin-bottom: 20px;
+    margin-left: 22px;
+    font-weight: bolder;
+    /* text-align: center; */
+}
+.dashboard-container form {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-fields-left {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    /* column-gap: 75px; */
+    width: 350px;
+}
+.form-fields-right {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    margin-left: 129px;
+    /* column-gap: 70px; */
+    width: 350px;
+    height: 0px;
+}
+/* .form-row {
+    display: flex;
+    flex-direction: column;
+    width: 48%; 
+    margin-bottom: 15px; 
+} */
+
+.dashboard-container label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px; 
+    margin-left: 22px;
+}
+
+
+.dashboard-container input[type="text"],
+.dashboard-container input[type="file"],
+.dashboard-container input[type="email"],
+.dashboard-container input[type="date"],
+.dashboard-container textarea,
+.dashboard-container select {
+    width: 111%;
+    padding: 6px;
+    margin-bottom: 15px;
+    margin-left: 22px;
+    border: 1.5px solid #7e7d7d;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: border-color 0.3s ease;
+} 
+
+
+.dashboard-container input[type="text"]:focus,
+.dashboard-container input[type="email"]:focus,
+.dashboard-container textarea:focus,
+.dashboard-container select:focus {
+    border-color: #f44336;
+    outline: none;
+}
+
+.dashboard-container textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.dashboard-container button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+.dashboard-container button:hover {
+    background-color: #d32f2f;
+}
+.checkbox{
+    font-size: 5px;
+    padding: 1px;
+}

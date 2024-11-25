@@ -1,0 +1,127 @@
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    /* margin-top: 50px; */
+  }
+  
+  .registration-form h2 {
+    font-size: 26px; 
+  }
+  
+  .registration-form div {
+    margin-bottom: 15px;
+    height: 47px;
+  }
+  
+  .registration-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  
+  .registration-form input,
+  .registration-form select {
+    width: 88%;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 11px;
+    margin-top: 5px;
+  }
+  
+  .registration-form button {
+    width: 88%;
+    padding: 12px;
+    background-color: #f04d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 45px;
+  }
+  
+  .registration-form button:hover {
+    background-color: #f04d4d;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  .form-container {
+    max-width: 348px;
+    margin: auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: -508px;
+     margin-right: 125px;
+     box-shadow: 0px 0px 12px rgb(131, 136, 137);
+
+     height: auto;
+     width: auto;
+  }
+  
+  .toggle-buttons {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 20px; */
+    
+  }
+  
+  .toggle-buttons button {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .toggle-buttons .active {
+    background-color: #f04d4d;
+    color: white;
+  }
+  
+  input {
+    width: 88%;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 11px;
+    margin-top: 5px;
+  }
+  
+  button {
+    width: 88%;
+    padding: 12px;
+    background-color: #f04d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #f04d4d;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  .login-form{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .login-form label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .checkboxlabel{
+    margin-left: 0px;
+  }

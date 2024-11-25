@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header-desc {
+  width: 1000px;
+  height: 110px;
+  padding: 2px 2px;
+  object-fit: contain;
+}
+.header-bose{
+width: 120px;
+padding: 5px 5px;
+}
+.header-unilogo{
+  width: 130px;
+  padding: 5px 5px;
+}
+/* Navbar.css */
+.navbar {
+  background-color: #500505;
+  padding-left: 15px;
+  padding-right: 90px;
+  /* border-radius: 42px; */
+  height:48px;
+  margin-top: 90px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar .nav-link {
+  color: whitesmoke; /* Text color */
+}
+
+.navbar .nav-link:hover {
+  color: #ffc107; /* Hover color */
+}
+.navbar-band{
+  padding-top: var(--bs-navbar-brand-padding-y); 
+    padding-bottom: var(--bs-navbar-brand-padding-y); 
+    margin-right: var(--bs-navbar-brand-margin-end); 
+    font-size: 19px; 
+    color: whitesmoke; 
+    text-decoration: none; 
+    white-space: nowrap;
+}

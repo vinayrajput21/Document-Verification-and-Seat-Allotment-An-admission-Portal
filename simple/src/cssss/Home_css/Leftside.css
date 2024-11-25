@@ -1,0 +1,76 @@
+.application-banner {
+    /* background-image: url('your-background-image-url');  */
+    /* position: absolute; */
+    background-size: cover;
+    background-position: left;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: black; /* White text color */
+    /* margin-left: 80px;*/
+    margin-top: 10px; 
+  }
+  
+  .content-container {
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  h3 {
+    margin: 10px 0;
+    font-weight: normal;
+  }
+  
+  h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    color: #f44336; /* Color for the BE/ BTech */
+  }
+  
+  .now-open {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .apply-btn {
+    background-color: #f44336; /* Red button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  
+  .apply-btn:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  
+  .subtext {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+  
+  .discover-section h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    font-style: italic;
+  }
+  
+  .color-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .color-dots .dot {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    border-radius: 50%;
+  }
+  
