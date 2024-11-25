@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,3 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 =======
 # Document-Verification-and-Seat-Allotment-An-admission-Portal
 >>>>>>> e6308b5e05b9641109ff9801dd4115ca232ca731
+=======
+# Document-Verification-and-Seat-Allotment-An-admission-Portal
+A University webpage which help student to register yourself and apply for their desired course and make university staff to check the data of students and help in entrance exam and seat allotment 
+>>>>>>> 3bf16a6f594e918df1e3fceb29359876d5cf17cf
